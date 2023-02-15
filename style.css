@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin: 17px 36px 0 42px;
+    letter-spacing: 36px;
+    cursor: pointer;
+}
+
+.menu { 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    text-decoration: none;
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button-header:hover {
+    background-color: red;
+}
+
+.button-header:active {
+    background-color: midnightblue;
+}
+
+img {
+    display: inline-block;
+    width: 534px;
+    height: 467px;
+    margin-top: 60px;
+    margin-left: 121px;
+}
+
+.container-direito {
+    display: inline-block;
+    position: absolute;
+    margin-left: 781px;
+    margin-top: -402px;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+
+}
+
+.button-div {
+    margin-top: 55px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    border: none;
+    background-color: transparent;
+}
+
+.button-div:hover {
+    opacity: .8;
+}
+
+.button-div:active {
+    opacity: .5;
+}
+
+
+@media screen and (max-width: 900px) {
+    .menu {
+        display: none;
+        overflow: hidden;
+    }
+
+    .button-header {
+        width: 91px;
+        height: 31px;
+        margin: 17px 15px 0px 244px;
+    }
+    .container-direito {
+        margin: auto;
+        text-align: center;
+        position: static;
+    }
+
+    h1 {
+        width: 278px;
+        height: 60px;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.596154px;
+        margin: 76px 55px 29px 57px;
+    }
+
+    p {
+        width: 304px;
+        height: 165px;
+        margin: 29px 43px 26px 43px ;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+    }
+
+    .button-div {
+        margin-top: -26px;
+    }
+
+    img {
+    width: 312px;
+    height: 288px;
+    margin-top: 430px;
+    margin-left: 35px;
+    position: absolute; 
+
+    }
+
+    
+}
